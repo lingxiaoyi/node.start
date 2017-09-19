@@ -1,0 +1,38 @@
+{
+  "name": "hello-koa2",
+  "version": "1.0.0",
+  "description": "Hello Koa 2 example with async",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "koa",
+    "async"
+  ],
+  "author": "zhijun",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lingxiaoyi/node.start"
+  },
+  "devDependencies": {
+    "brace-expansion": "^1.1.8",
+    "mocha": "^3.5.3",
+    "supertest": "^3.0.0",
+    "thenify-all": "^1.6.0"
+  },
+  "dependencies": {
+    "koa": "2.0.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "mime": "^2.0.1",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.2",
+    "mz": "^2.7.0",
+    "nunjucks": "^3.0.1",
+    "sequelize": "^4.8.4",
+    "ws": "^3.2.0"
+  }
+}
